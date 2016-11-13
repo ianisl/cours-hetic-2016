@@ -3,17 +3,6 @@ cours-hetic-2016.zip
 node_modules/
 
 # Ignore course packages until they are ready ;)
-p1-introduction-background-refresh/
-p2-movement/
-p3-movement-boundaries/
-p4-movement-boundaries-improved/
-p5-movement-angle/
-p6-movement-angle-functions/
-p7-random-walk/
-p8-random-walk-delay/
-p9-random-walk-delay-trace/
-p10-random-walk-lines/
-p11-random-walk-lines-color/
 p12-agent-object/
 p13-agent-object-many/
 p14-better-trace/

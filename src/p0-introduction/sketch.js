@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(600, 600); // Optionnel, permet de préciser la taille de la zone de dessin
+    createCanvas(540, 540); // Optionnel, permet de préciser la taille de la zone de dessin
 }
 
 function draw() {
@@ -24,9 +24,10 @@ function draw() {
     stroke(c1);
     ellipse(width/2, 3*height/4, 100, 100); // La fonction 'ellipse' est surtout utilisée pour tracer des cercles…
     // Ligne
-    var l = brightness(c1); // Récupération de la luminosité (paramètre du mode HSB) de la couleur RGB (0, 0, 0)
+    var l = brightness(c1); // Récupération de la luminosité (paramètre du mode HSB) de la couleur RGB(150, 150, 150)
     colorMode(HSB); // Les couleurs seront maintenant créées en mode HSB
     var c2 = color(200, 50, l); // c2 a la même luminosité que c1 mais des valeurs différentes de teinte et de saturation
+    colorMode(RGB); // Ne pas oublier de repasser en mode RGB après création de la couleur
     stroke(c2);
     strokeWeight(1);
     line(200, 350, 400, 500);
