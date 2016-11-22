@@ -3,15 +3,6 @@ cours-hetic-2016.zip
 node_modules/
 
 # Ignore course packages until they are ready ;)
-p12-agent-object/
-p13-agent-object-many/
-p14-better-trace/
-p15-vertex-line/
-p16-curves/
-p17-keyboard-interaction/
-p18-pixel-density/
-p19-graphical-interface/
-p20-graphical-interface-advanced/
 p21-perlin-noise/
 p22-perlin-noise-scaled/
 p23-perlin-field/
