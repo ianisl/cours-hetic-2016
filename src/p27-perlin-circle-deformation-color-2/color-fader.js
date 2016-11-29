@@ -25,4 +25,5 @@ function createColorFader(x, y, z, xStep, yStep, zStep) {
 
     // Retour de l'objet 'Color Fader'
     return f;
+
 }

@@ -70,16 +70,16 @@ function initGUI() {
         },
         set agentCount(v) {
             v = floor(v);
-            var agentCountIncrement = v - agentCount; // Calcul du nombre d'agents à ajouter ou supprimer
-            if (agentCountIncrement > 0) {
-                for (var i = agentCountIncrement - 1; i >= 0; i--) {
+            var agentsToAdd = v - agentCount; // Calcul du nombre d'agents à ajouter ou supprimer
+            if (agentsToAdd > 0) {
+                for (var i = agentsToAdd - 1; i >= 0; i--) {
                     a = createAgent();
                     a.stepSize = random(minStepSize, maxStepSize);
                     agents.push(a);
                 };
             } else {
-                agentCountIncrement = -agentCountIncrement; // Nombre d'agents à supprimer
-                agents.splice(0, agentCountIncrement); // Suppression des #'agentCountIncrement' premiers agents
+                agentsToAdd = -agentsToAdd; // Nombre d'agents à supprimer
+                agents.splice(0, agentsToAdd); // Suppression des #'agentsToAdd' premiers agents
             }
             agentCount = v; // Mise à jour du nombre d'agents
         }
