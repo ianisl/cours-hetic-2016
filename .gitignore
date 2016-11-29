@@ -3,12 +3,5 @@ cours-hetic-2016.zip
 node_modules/
 
 # Ignore course packages until they are ready ;)
-p21-perlin-noise/
-p22-perlin-noise-scaled/
-p23-perlin-field/
-p24-perlin-field-ellipse/
-p25-perlin-circle-deformation/
-p26-perlin-circle-deformation-color-1/
-p27-perlin-circle-deformation-color-2/
 p28-image-field/
 p29-arduino-server/
